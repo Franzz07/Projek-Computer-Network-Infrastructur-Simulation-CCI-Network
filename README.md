@@ -6,6 +6,9 @@ Repositori ini berisi project simulasi infrastruktur jaringan berskala menengah 
 ## 📝 Deskripsi Project
 Project ini mensimulasikan infrastruktur jaringan perusahaan dengan membagi jaringan ke dalam beberapa divisi menggunakan arsitektur **VLAN**. Jaringan ini dikelola oleh 3 Router utama dan 5 Switch, serta mengimplementasikan **Inter-VLAN Routing**, distribusi IP otomatis via **DHCP Server**, dan **Static Routing** untuk menghubungkan router antar gedung/area.
 
+### 🗺️ Topologi Jaringan
+![Topologi Jaringan](assets/topology.png)
+
 ## Fitur Utama & Konfigurasi
 1. **VLAN (Virtual Local Area Network)**
    Jaringan diisolasi menjadi beberapa segmen berikut untuk keamanan dan efisiensi manajemen:
